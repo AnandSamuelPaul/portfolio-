@@ -944,18 +944,17 @@ export default function Portfolio() {
         <div className="hero-content">
           <div className="hero-label">⚡ Cybersecurity Professional</div>
           <h1 className="hero-title">Anand Samuel Paul</h1>
-          <p className="hero-subtitle">Penetration Tester · Digital Forensics · Offensive Security</p>
+          <p className="hero-subtitle">Penetration Testing · Digital Forensics · Offensive Security</p>
           <p className="hero-description">
-            MSc Cybersecurity graduate with expertise in threat analysis, offensive security research, and digital forensics. 
-            Demonstrated technical depth through IoT penetration testing, malware reverse engineering, and AI application forensics. 
-            Passionate about innovative security solutions and building secure, resilient systems.
+           MSc Cybersecurity graduate with expertise in threat analysis, offensive security research, and digital forensics. Passionate about innovative security solutions and building secure, resilient systems.
           </p>
           <div className="hero-cta">
             <button className="btn btn-primary" onClick={() => scrollToSection('about')}>
               View Work <ChevronDown size={16} />
             </button>
-            <button className="btn btn-secondary" onClick={() => window.location.href = 'mailto:samuel5452000@gmail.com'}>
+            <a href="mailto:samuel5452000@gmail.com" className="btn btn-secondary" style={{ textDecoration: 'none' }}>
               <Mail size={16} /> Get In Touch
+            </a>
             </button>
           </div>
         </div>
